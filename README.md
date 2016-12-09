@@ -34,7 +34,19 @@ $ grunt
 # Project Structure
 
 
-All the source files are available at path src/ .
+All the source files are available at path
+```
+src/
+```
+Once build the compiled files will be available at path
+```
+build/
+```
 
-Once build the compiled files will be available at path build/ .
+# Documentation
 
+Full documentation is available at path
+
+```
+out/index.html
+```
