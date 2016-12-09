@@ -3,7 +3,7 @@
  */
 
 processURL();
-
+//This function is a standalone URL router for this app. It parses and manages hashtag URL's
 function processURL() {
 
     if (!window.location.hash) {
@@ -32,7 +32,7 @@ function processURL() {
     }
     $("#loading").hide();
 }
-
+//This function is called when url change event occurs and it clears content and parses updated URL.
 function goURL() {
     $("#loading").show();
     $("#carData").html('');

@@ -1,10 +1,12 @@
 /**
  * Created by srikanth681 on 08/12/2016.
  */
+//This function displays a single car product
 function displayCarDetail(data, vandorCode, carCode) {
     displayCarsList(data, vandorCode, carCode)
 }
-
+//This function displays a list of available cars for the home page, it uses HTML templates for generating product's
+// markup. 
 function displayCarsList(data, vandorCode, carCode) {
 
     displayLegendInfo(data)
@@ -35,7 +37,7 @@ function displayCarsList(data, vandorCode, carCode) {
 
     })
 }
-
+//This function displays top legend information like Pickup and Drop info
 function displayLegendInfo(data) {
     var pt = new Date(data[0].VehAvailRSCore.VehRentalCore["@PickUpDateTime"]);
     var rt = new Date(data[0].VehAvailRSCore.VehRentalCore["@ReturnDateTime"]);
@@ -45,7 +47,7 @@ function displayLegendInfo(data) {
     $(".pickupInfoLegend .dropTime strong").html(rt.toLocaleDateString() + " " + rt.toLocaleTimeString())
 
 }
-
+//This function builds up the main product from the html template
 function productTemplate(carItem, vandorCode) {
     var productTemp = $("#product-template");
 
