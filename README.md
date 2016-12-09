@@ -38,7 +38,7 @@ All the source files are available at path
 ```
 src/
 ```
-Once build the compiled files will be available at path
+Once build, the compiled files will be available at path
 ```
 build/
 ```
@@ -50,3 +50,8 @@ Full documentation is available at path
 ```
 out/index.html
 ```
+
+# Live Demo
+
+https://srikanth681.github.io/CarTrawler-Car-Listings/src/#/home/
+
