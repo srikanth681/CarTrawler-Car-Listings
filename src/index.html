@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <title>Auto Parts</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="application/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="application/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+<div id="wrap">
+
+    <div class="header">
+        <div class="logo">
+            <a href="#/home/"  onclick="goURL()">
+                <!--<img src="images/logo.gif" alt="" title="" border="0" />-->
+                CarTrawler
+            </a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li class="selected"><a href="#/home/" onclick="goURL()">home</a></li>
+                <!--<li><a href="about.html">about us</a></li>-->
+                <!--<li><a href="category.html">parts</a></li>-->
+                <!--<li><a href="specials.html">premium parts</a></li>-->
+                <!--<li><a href="myaccount.html">my accout</a></li>-->
+                <!--<li><a href="register.html">register</a></li>-->
+                <!--<li><a href="details.html">prices</a></li>-->
+                <!--<li><a href="contact.html">contact</a></li>-->
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div id="section-template" style="display: none;">
+        <div class="title">
+            <span class="title_icon"><img src="images/bullet1.gif" alt="" title="" /></span>
+            <span class="titleArea"></span>
+        </div>
+        <div class="infoArea"></div>
+    </div>
+    <div id="product-template" style="display: none;">
+        <div class="feat_prod_box">
+
+            <div class="prod_img">
+                <a href="#" onclick="goURL()"><img src="" alt="" title="" border="0" /></a>
+            </div>
+
+            <div class="prod_det_box">
+                <div class="box_top"></div>
+                <div class="box_center">
+                    <div class="prod_title">
+                        <span class="titleHeading"> </span>
+                        <span class="price"> </span>
+                    </div>
+                    <div class="details">
+                        <div class="TransmissionType">Transmission type: <strong></strong> </div>
+                        <div class="FuelType">Fuel type: <strong></strong> </div>
+                        <div class="DriveType">Driver type: <strong></strong> </div>
+                        <div class="PassengerQuantity">Passenger Quantity: <strong></strong> </div>
+                        <div class="BaggageQuantity">Baggage Quantity: <strong></strong> </div>
+                        <div class="DoorCount">Number of Doors: <strong></strong> </div>
+                        <div class="AirConditionInd">Air conditioned: <strong></strong> </div>
+
+
+
+                    </div>
+
+                    <a href="#" onclick="goURL()" class="more">- more details -</a>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="box_bottom"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+    <div class="center_content">
+
+        <a href="#/home/" class="backToHome" onclick="goURL()">
+             Back to Home Listings</a>
+
+
+                    <span class="mainLegendInfo">
+                Results for Pickup from <strong></strong> and Drop on <strong></strong>
+            </span>
+        <div class="prod_det_box pickupInfoLegend" style="width: 100%;padding-left: 15px;">
+            <div class="details">
+                <div class="pickupTime">Pickup time: <strong></strong> </div>
+                <div class="dropTime">Drop time: <strong></strong> </div>
+
+            </div>
+        </div>
+
+        <div id="carData"></div>
+        <div id="loading">
+            Loading...
+        </div>
+
+
+
+
+
+        <div class="clear"></div>
+    </div>
+    <!--end of center content-->
+
+
+    <div class="footer">
+        <div class="left_footer"><img src="images/footer_logo.gif" alt="" title="" /><br />
+            <a href="http://csscreme.com/freecsstemplates/" title="free templates"><img src="images/csscreme.gif" alt="free templates" title="free templates" border="0" /></a>
+        </div>
+        <div class="right_footer">
+            <a href="#/home/"  onclick="goURL()">home</a>
+            <!--<a href="#">about us</a>-->
+            <!--<a href="#">services</a>-->
+            <!--<a href="#">privacy policy</a>-->
+            <!--<a href="#">contact us</a>-->
+
+        </div>
+
+
+    </div>
+    <script type="application/javascript" src="js/built.js"></script>
+</div>
+
+</body>
+
+</html>
